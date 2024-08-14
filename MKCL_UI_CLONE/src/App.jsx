@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import Navbar from "./components/Navbar/Navbar";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit voluptate alias, ipsam reiciendis ad dignissimos perspiciatis! Natus, non quae. Excepturi ducimus quis, enim perspiciatis sed est? Aut, ducimus nesciunt!</p>
+      <BrowserRouter>
+        <div>
+          <Navbar />
+          
+        </div>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
