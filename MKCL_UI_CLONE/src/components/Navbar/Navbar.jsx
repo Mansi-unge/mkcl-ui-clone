@@ -8,7 +8,7 @@ import "./NAvbar.css"
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav className="navbar navbar-expand-lg border border-top  border-5 border-primary  border-bottom-0 border-start-0  border-end-0">
         <div className="container-fluid">
           <div className="d-flex justify-content-start align-items-center">
             <Link className="navbar-brand" to="/">
@@ -33,7 +33,7 @@ function Navbar() {
             className="navbtn collapse navbar-collapse"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-lg-auto"> {/* Right aligned on medium and larger screens */}
+            <ul className="navbar-nav ms-lg-auto">
               <li className="nav-item">
                 <Link className="btn my-1 btn-primary mx-1" to="/">
                   Home

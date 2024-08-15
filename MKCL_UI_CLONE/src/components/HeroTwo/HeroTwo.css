@@ -1,0 +1,41 @@
+.herotwo{
+  padding: 40px 100px;
+  background-color:#007bff;
+}
+.logodiv2 p{
+  opacity: 0.8;
+}
+.herotwo{
+  gap: 20px;
+}
+.logodiv2 h1{
+  font-size: 25px;
+}
+.logodiv{
+  padding: 15px 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+.logodiv2{
+  text-wrap: wrap;
+}
+@media(min-width:1000px){
+  .herotwo{
+    padding: 50px;
+    gap: 10px;
+  }
+  .logodiv{
+    padding: 25px 55px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .logodiv2{
+    width: 60%;
+  text-wrap: wrap;
+    padding: 20px;
+  }
+  .logodiv2 h1{
+    font-size: 35px;
+  }
+}
