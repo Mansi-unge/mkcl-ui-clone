@@ -35,32 +35,32 @@ function Navbar() {
           >
             <ul className="navbar-nav ms-lg-auto"> {/* Right aligned on medium and larger screens */}
               <li className="nav-item">
-                <Link type="button" className="btn my-1 btn-primary mx-1" to="/">
+                <Link className="btn my-1 btn-primary mx-1" to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link type="button" className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/">
                   KLiC Courses
                 </Link>
               </li>
               <li className="nav-item">
-                <Link type="button" className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/">
                   KLic Diploma
                 </Link>
               </li>
               <li className="nav-item">
-                <Link type="button" className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/">
                   Admission
                 </Link>
               </li>
               <li className="nav-item">
-                <Link type="button" className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/">
                   Learner Life Cycle
                 </Link>
               </li>
               <li className="nav-item">
-                <Link type="button" className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/">
                   FAQs
                 </Link>
               </li>
@@ -72,4 +72,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;
