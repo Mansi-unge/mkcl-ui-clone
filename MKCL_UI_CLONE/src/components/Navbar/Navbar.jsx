@@ -40,27 +40,27 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/KLiC Courses">
                   KLiC Courses
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/KLic Diploma">
                   KLic Diploma
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/Admission">
                   Admission
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/Learner_Life_Cycle">
                   Learner Life Cycle
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/">
+                <Link className="btn my-1 mx-1" to="/FAQs">
                   FAQs
                 </Link>
               </li>
