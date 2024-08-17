@@ -35,32 +35,32 @@ function Navbar() {
           >
             <ul className="navbar-nav ms-lg-auto">
               <li className="nav-item">
-                <Link className="btn my-1 btn-primary mx-1" to="/">
+                <Link className="btn my-1 btn-primary mx-1" to="Home-MKCLs-KLic">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/KLiC Courses">
+                <Link className="btn my-1 mx-1" to="KLiC-Courses-MKCLs-KLic">
                   KLiC Courses
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/KLic Diploma">
+                <Link className="btn my-1 mx-1" to="KLic-Diploma-MKCLs-KLic">
                   KLic Diploma
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/Admission">
+                <Link className="btn my-1 mx-1" to="Admission-MKCLs-KLic">
                   Admission
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/Learner_Life_Cycle">
+                <Link className="btn my-1 mx-1" to="Learner-Life-Cycle-MKCLs-KLic">
                   Learner Life Cycle
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="btn my-1 mx-1" to="/FAQs">
+                <Link className="btn my-1 mx-1" to="FAQs-MKCLs-KLic">
                   FAQs
                 </Link>
               </li>
