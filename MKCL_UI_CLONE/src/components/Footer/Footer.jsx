@@ -53,6 +53,10 @@ function Footer(){
         </ul>
       </div>
     </div>
+    <div className="footertwo p-4 d-flex justify-content-center align-items-center">
+      <h6 className="text-white 
+      ">Copyright © 2024 <span><Link style={{color:"white" , textDecoration:"none" }}>Maharashtra Knowledge Corporation Limited</Link></span> . All Rights Reserved.</h6>
+    </div>
     </>
   )
 }

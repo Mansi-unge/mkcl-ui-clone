@@ -1,0 +1,54 @@
+.head{
+  background-color: #f3f6f9;
+}
+.faqhead{
+  text-align: center;
+
+}
+.faqheading{
+  color:#18407c;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+.anchor{
+  text-decoration: none;
+}
+.anchor:hover{
+  text-decoration: underline;
+}
+.faq{
+  margin:2% 5%;
+}
+.headingtwo{
+  text-align: center;
+}
+.hrborder{
+  margin:5% 5% 3%;
+}
+.over{
+  background-color: #f7faff;
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+  font-weight: 600;
+}
+.accordion .accordion-item .accordion-header .accordion-button[aria-expanded=true]{
+  background-color: #f7faff;
+  color: #2024fc;
+}
+@media (min-width:600px) and (max-width: 999px) {
+  .faq{
+    margin:2% 12%;
+  }
+  .hrborder{
+    margin:5% 12% 3%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .faq{
+    margin:2% 20% ;
+  }
+  .hrborder{
+    margin:5% 20% 3%;
+  }
+}

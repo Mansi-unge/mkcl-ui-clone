@@ -35,7 +35,7 @@ function Navbar() {
           >
             <ul className="navbar-nav ms-lg-auto">
               <li className="nav-item">
-                <Link className="btn my-1 btn-primary mx-1" to="Home-MKCLs-KLic">
+                <Link className="btn my-1  mx-1" to="Home-MKCLs-KLic">
                   Home
                 </Link>
               </li>
